@@ -3,7 +3,7 @@ from django import forms
 from .models import Contato
 
 #class ContatoForm(forms.Form):
-#	nome = forms.CharField(label = 'Nome:', max_length=200)
+#	nome = forms.CharField(max_length=200)
 
 class ContatoForm(forms.ModelForm):
 	class Meta:
